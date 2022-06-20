@@ -8,7 +8,6 @@ Integrantes do grupo<br>
 Larissa Kemile Pereira da Silva: larissakemile24@gmail.com<br>
 Josias Neves Jardim Borba: jojarbor@gmail.com<br>
 Vitória Isabel Lemos de Mattos: vitoriaisabel77351@gmail.com<br>
-...
 
 ### 2.MINIMUNDO<br>
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar)
