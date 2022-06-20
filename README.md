@@ -1,12 +1,13 @@
-# TRABALHO DE PI:  Título do Trabalho
+# TRABALHO DE PI:  YBY
 Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Larissa Kemile Pereira da Silva: larissakemile24@gmail.com<br>
+Josias Neves Jardim Borba: jojarbor@gmail.com<br>
+Vitória Isabel Lemos de Mattos: vitoriaisabel77351@gmail.com<br>
 ...
 
 ### 2.MINIMUNDO<br>
@@ -15,7 +16,15 @@ Entrevista com o usuário e identificação dos requisitos.(quando for o caso de
 Descrição textual das regras de negócio definidas como um subconjunto do mundo real cujos elementos são propriedades que desejamos incluir, processar, armazenar, gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 <br>
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes..
+> O professor Carlinhos solicitou um sistema para o NEABI (Núcleo de Estudos Afro-Brasileiros). A principio, ele deseja armazenar informações a respeito de alunos sobre as seguintes informações: matrícula, nome, situação da matricula, nascimento, sexo, curso, telefone, email, cota, renda familiar percapita, nome do responsável cor/raça. A respeito dos professores, ele deseja registrar tais informações: sexo, curso que atua, cor/raça.
+
+Ao fim, os neabis conseguirão utilizar o sistema para obterem conclusões derivadas dos relatórios gerados. O conjunto de informações coletadas e armazenadas para fins de consulta a respeito dos NEABIS são:  qtd_integrantes, campus, data_origem, administradores, etnia.
+
+Um aluno pode pertencer a apenas uma turma e a turma pode conter diversos alunos. Um aluno pode ter vários professores e um professor pode ter vários alunos. Alunos e professores podem participar apenas do NEABI em que participam e um NEABI pode receber vários alunos e professores.
+
+Cada aluno pertence exclusivamente a uma única instituição de ensino médio, podendo ser cadastrada em conjunto, instituições extracurriculares.
+
+Os dados gerais a respeito da instituição consistem em: nome, data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
  
  
 ### 3.PMC<br>
