@@ -18,13 +18,13 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 
 > O professor Carlinhos solicitou um sistema para o NEABI (Núcleo de Estudos Afro-Brasileiros). A principio, ele deseja armazenar informações a respeito de alunos sobre as seguintes informações: matrícula, nome, situação da matricula, nascimento, sexo, curso, telefone, email, cota, renda familiar percapita, nome do responsável cor/raça. A respeito dos professores, ele deseja registrar tais informações: sexo, curso que atua, cor/raça.
 
-Ao fim, os neabis conseguirão utilizar o sistema para obterem conclusões derivadas dos relatórios gerados. O conjunto de informações coletadas e armazenadas para fins de consulta a respeito dos NEABIS são:  qtd_integrantes, campus, data_origem, administradores, etnia.
+> Ao fim, os neabis conseguirão utilizar o sistema para obterem conclusões derivadas dos relatórios gerados. O conjunto de informações coletadas e armazenadas para fins de consulta a respeito dos NEABIS são:  qtd_integrantes, campus, data_origem, administradores, etnia.
 
-Um aluno pode pertencer a apenas uma turma e a turma pode conter diversos alunos. Um aluno pode ter vários professores e um professor pode ter vários alunos. Alunos e professores podem participar apenas do NEABI em que participam e um NEABI pode receber vários alunos e professores.
+> Um aluno pode pertencer a apenas uma turma e a turma pode conter diversos alunos. Um aluno pode ter vários professores e um professor pode ter vários alunos. Alunos e professores podem participar apenas do NEABI em que participam e um NEABI pode receber vários alunos e professores.
 
-Cada aluno pertence exclusivamente a uma única instituição de ensino médio, podendo ser cadastrada em conjunto, instituições extracurriculares.
+> Cada aluno pertence exclusivamente a uma única instituição de ensino médio, podendo ser cadastrada em conjunto, instituições extracurriculares.
 
-Os dados gerais a respeito da instituição consistem em: nome, data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
+> Os dados gerais a respeito da instituição consistem em: nome, data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
  
  
 ### 3.PMC<br>
