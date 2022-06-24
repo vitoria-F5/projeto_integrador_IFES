@@ -25,7 +25,6 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 
 > Os dados gerais a respeito da instituição consistem em: nome, data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
  
- 
 ### 3.PMC<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc(1).png "PMC")
 a) inclusão do PMC desenvolvido pelo grupo
@@ -39,8 +38,7 @@ a) inclusão do PMC desenvolvido pelo grupo
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/figma-prot%C3%B3tipo.png "Empresa Devcom")
-
+![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://www.figma.com/file/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=0%3A1 "Empresa Devcom")
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
