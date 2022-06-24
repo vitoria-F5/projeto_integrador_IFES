@@ -41,7 +41,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/figma-prot%C3%B3tipo.png "Empresa Devcom")
 
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
