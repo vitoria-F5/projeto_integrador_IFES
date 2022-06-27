@@ -15,15 +15,17 @@ Entrevista com o usuário e identificação dos requisitos.(quando for o caso de
 Descrição textual das regras de negócio definidas como um subconjunto do mundo real cujos elementos são propriedades que desejamos incluir, processar, armazenar, gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 <br>
 
-> O professor Carlinhos solicitou um sistema para o NEABI (Núcleo de Estudos Afro-Brasileiros). A principio, ele deseja armazenar informações a respeito de alunos sobre as seguintes informações: matrícula, nome, situação da matricula, nascimento, sexo, curso, telefone, email, cota, renda familiar percapita, nome do responsável cor/raça. A respeito dos professores, ele deseja registrar tais informações: sexo, curso que atua, cor/raça.
+MINIMUNDO
 
-> Ao fim, os neabis conseguirão utilizar o sistema para obterem conclusões derivadas dos relatórios gerados. O conjunto de informações coletadas e armazenadas para fins de consulta a respeito dos NEABIS são:  qtd_integrantes, campus, data_origem, administradores, etnia.
+>O professor Carlinhos, solicitou um sistema para o NEABI (Núcleo de Estudos Afro-Brasileiros). A princípio, ele deseja armazenar as seguintes informações a respeito os alunos: matrícula, nome, situação da matricula, nascimento, sexo, curso, telefone, email, cota, renda familiar percapita, nome do responsável cor/raça.
 
-> Um aluno pode pertencer a apenas uma turma e a turma pode conter diversos alunos. Um aluno pode ter vários professores e um professor pode ter vários alunos. Alunos e professores podem participar apenas do NEABI em que participam e um NEABI pode receber vários alunos e professores.
+>Ao fim, os NEABIs conseguirão utilizar o sistema para obterem conclusões derivadas dos relatórios gerados. O conjunto de informações coletadas e armazenadas para fins de consulta a respeito dos NEABIS são:  id_Neabi, datOrig, administrador, id_Campus.
 
-> Cada aluno pertence exclusivamente a uma única instituição de ensino médio, podendo ser cadastrada em conjunto, instituições extracurriculares.
+>Um aluno pode pertencer a apenas uma turma, e a turma pode conter diversos alunos.Alunos e professores podem participar apenas do NEABI em que participam e um NEABI pode receber vários alunos e professores.
 
-> Os dados gerais a respeito da instituição consistem em: nome, data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
+>Cada aluno pertence exclusivamente a uma única instituição de ensino médio, podendo ser cadastrada em conjunto, instituições extracurriculares.
+Os dados gerais a respeito da instituição consistem em: nome, 
+data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
  
 ### 3.PMC<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc(1).png "PMC")
