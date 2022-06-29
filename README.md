@@ -68,6 +68,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 
 
 ### 9	MODELO LÓGICO<br>
+### 10	MODELO FÍSICO<br>
 CREATE TABLE PESSOA (
     id INTEGER PRIMARY KEY,
     nome VARCHAR(100),
@@ -181,11 +182,6 @@ ALTER TABLE Participa ADD CONSTRAINT FK_Participa_2
     FOREIGN KEY (fk_INSTITUICAO_EXTRAC_id_Status)
     REFERENCES INSTITUICAO_EXTRAC (id_Status)
     ON DELETE SET NULL;
-
-### 10	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
-        
        
 ### 11	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
