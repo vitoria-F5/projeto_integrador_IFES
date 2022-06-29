@@ -23,12 +23,9 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
  
 ### 3.PMC<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc(1).png "PMC")
-a) inclusão do PMC desenvolvido pelo grupo
 
 ### 4.Personas e Histórias de usuário<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/PMC.jpg?raw=true "PMC")
-a) inclusão do PMC desenvolvido pelo grupo
-
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Arquivo do protótipo do site YBY](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/home.png "YBY")
@@ -37,13 +34,13 @@ a) inclusão do PMC desenvolvido pelo grupo
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
- 
+Relatórios e informações a respeito do corpo docente e discente do IFES Campus Serra.
+
+* Relatório que informe o perfil dos alunos de cada turma incluindo as seguintes informações: identificação padrão, matrícula, cota a qual pertence, etnia, curso e sexo.
+* Relatório que informe o perfil dos professores de cada área incluindo identificação padrão, matrícula, etnia e sexo.
+* Relatório que informe a quantidade de pessoas no NEABI.
+* Relatório que informe a etnia dos alunos que pertencem a um pré-vestibular.
+* Relatório que informe o perfil de renda de cada etnia dos alunos.
 
 ### 6 TABELA DE DADOS DO SISTEMA:
     A) Esta tabela deve conter **todos os atributos do sistema** e um mínimo de 10 linhas/registros de dados.
