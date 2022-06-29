@@ -68,9 +68,119 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 
 
 ### 9	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+CREATE TABLE PESSOA (
+    id INTEGER PRIMARY KEY,
+    nome VARCHAR(100),
+    sexo VARCHAR(100),
+    id_Renda INTEGER,
+    telefone BIGINT,
+    email VARCHAR(100),
+    nascimento VARCHAR(100),
+    etnia INTEGER,
+    FK_NEABI_id_Neabi INTEGER,
+    FK_CURSO_id_Curso INTEGER,
+    FK_RENDA_id_Renda INTEGER
+);
+
+CREATE TABLE ALUNO (
+    id_Aluno INTEGER,
+    id_Cota VARCHAR(100),
+    id_Matricula VARCHAR(100),
+    FK_PESSOA_id INTEGER,
+    FK_COTA_id_Cota INTEGER,
+    FK_STATUS_M_id_Extra INTEGER,
+    PRIMARY KEY (id_Aluno, FK_PESSOA_id)
+);
+
+CREATE TABLE NEABI (
+    id_Neabi INTEGER PRIMARY KEY,
+    campus VARCHAR(100),
+    dataOrig DATE,
+    administrador VARCHAR(100),
+    FK_CAMPUS_id_Campus INTEGER
+);
+
+CREATE TABLE CURSO (
+    id_Curso INTEGER PRIMARY KEY,
+    descricao VARCHAR(100)
+);
+
+CREATE TABLE RENDA (
+    id_Renda INTEGER PRIMARY KEY,
+    descricao VARCHAR(100)
+);
+
+CREATE TABLE CAMPUS (
+    id_Campus INTEGER PRIMARY KEY,
+    nome VARCHAR(100),
+    datOrigCampus DATE
+);
+
+CREATE TABLE COTA (
+    id_Cota INTEGER PRIMARY KEY,
+    descricao VARCHAR(100)
+);
+
+CREATE TABLE STATUS_M (
+    id_Extra INTEGER PRIMARY KEY,
+    tipo VARCHAR(100)
+);
+
+CREATE TABLE INSTITUICAO_EXTRAC (
+    id_Status INTEGER PRIMARY KEY,
+    descStatus VARCHAR(100)
+);
+
+CREATE TABLE Participa (
+    fk_ALUNO_id_Aluno INTEGER,
+    fk_ALUNO_FK_PESSOA_id INTEGER,
+    fk_INSTITUICAO_EXTRAC_id_Status INTEGER
+);
+ 
+ALTER TABLE PESSOA ADD CONSTRAINT FK_PESSOA_2
+    FOREIGN KEY (FK_NEABI_id_Neabi)
+    REFERENCES NEABI (id_Neabi)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE PESSOA ADD CONSTRAINT FK_PESSOA_3
+    FOREIGN KEY (FK_CURSO_id_Curso)
+    REFERENCES CURSO (id_Curso)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE PESSOA ADD CONSTRAINT FK_PESSOA_4
+    FOREIGN KEY (FK_RENDA_id_Renda)
+    REFERENCES RENDA (id_Renda)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_2
+    FOREIGN KEY (FK_PESSOA_id)
+    REFERENCES PESSOA (id)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_3
+    FOREIGN KEY (FK_COTA_id_Cota)
+    REFERENCES COTA (id_Cota)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_4
+    FOREIGN KEY (FK_STATUS_M_id_Extra)
+    REFERENCES STATUS_M (id_Extra)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE NEABI ADD CONSTRAINT FK_NEABI_2
+    FOREIGN KEY (FK_CAMPUS_id_Campus)
+    REFERENCES CAMPUS (id_Campus)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Participa ADD CONSTRAINT FK_Participa_1
+    FOREIGN KEY (fk_ALUNO_id_Aluno, fk_ALUNO_FK_PESSOA_id)
+    REFERENCES ALUNO (id_Aluno, FK_PESSOA_id)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Participa ADD CONSTRAINT FK_Participa_2
+    FOREIGN KEY (fk_INSTITUICAO_EXTRAC_id_Status)
+    REFERENCES INSTITUICAO_EXTRAC (id_Status)
+    ON DELETE SET NULL;
 
 ### 10	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
