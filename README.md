@@ -25,7 +25,7 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc(1).png "PMC")
 
 ### 4.Personas e Histórias de usuário<br>
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/PMC.jpg?raw=true "PMC")
+https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/view?utm_content=DAE-DwsIPzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Arquivo do protótipo do site YBY](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/home.png "YBY")
