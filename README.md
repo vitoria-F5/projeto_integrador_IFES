@@ -43,13 +43,8 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 * Relatório que informe o perfil de renda de cada etnia dos alunos.
 
 ### 6 TABELA DE DADOS DO SISTEMA:
-    A) Esta tabela deve conter **todos os atributos do sistema** e um mínimo de 10 linhas/registros de dados.
-    B) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
- <br> (veja o exemplo abaixo antes de criar a tabela para seu trabalho)
-    C) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
-    
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
 
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/planilha.png "Tabela de dados")
  
  ### 7.MODELO CONCEITUAL<br>
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/conceitual.jpg "Modelo Conceitual")
