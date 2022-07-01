@@ -51,50 +51,50 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 
 #### 7.1 Descrição dos dados 
 PESSOA: Tabela que armazena as informações relativas a pessoa<br>
-id_Pessoa: <br>
-nome: <br>
-sexo: <br>	
-id_Curso: <br>
-etnia: <br>
-id_Renda: <br>	
-telefone: <br>	
-email: <br>
-nascimento: <br>
+id_Pessoa: identificador da pessoa <br>
+nome: nome da pessoa <br>
+sexo: sexo da pessoa<br>	
+id_Curso: identificador do curso da pessoa<br>
+etnia: etnia da pessoa<br>
+id_Renda: identificador de renda da pessoa<br>	
+telefone: telefone da pessoa<br>	
+email: email da pessoa<br>
+nascimento: data de nascimento da pessoa<br>
 
-ALUNO: <br>
-id_Aluno: <br>	
-id_Matricula: <br>	
+ALUNO: Tabela que diferencia os alunos das outras pessoas<br>
+id_Aluno: identificador da pessoa<br>	
+id_Matricula: matrícula da pessoa<br>	
 
 RENDA: <br>
-id_Renda: <br>
-descRend: <br>
+id_Renda: identificador de renda <br>
+descRend: descrição<br>
 
 CURSO: <br>
-id_Curso: <br>	
-descCurs: <br>
+id_Curso: identificador do curso <br>	
+descCurs: descrição <br>
 
 COTA: <br>
-id_Cota: <br>
-descCota: <br>
+id_Cota: identificador da cota <br>
+descCota: descrição <br>
 
 STATUS_M: <br>
-id_Status: <br>	
-descStat: <br>
+id_Status: identificador do status de matricula <br>	
+descStat: descrição <br>
 
 INSTITUICAO_EXTRAC: <br>
-id_Extra: <br>
-tipo: <br>
+id_Extra: identificador da instituição extracurricular <br>
+tipo: tipo da instituição <br>
 
 NEABI: <br>
-id_Neabi: <br>
-datOrig: <br>
-administrador: <br>
-id_Campus: <br>
+id_Neabi: identificador do NEABI <br>
+datOrig: data de origem do NEABI <br>
+administrador: administrador do NEABI<br>
+id_Campus: identificador do campus <br>
 
 CAMPUS: <br>
-id_Campus: <br>
-Nome:	<br>
-datOrigCampus: <br>
+id_Campus: identificador do campus <br>
+Nome:	nome do campus <br>
+datOrigCampus: data origem do campus <br>
 
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
