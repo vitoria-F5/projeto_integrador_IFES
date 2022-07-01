@@ -68,7 +68,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 
 
 ### 9	MODELO LÓGICO<br>
-![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/conceitual.jpg "Modelo Conceitual")
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/logico.jpeg "Modelo Logico")
 
 ### 10	MODELO FÍSICO<br>
 CREATE TABLE PESSOA (
