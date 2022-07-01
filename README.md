@@ -50,11 +50,52 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/conceitual.jpg "Modelo Conceitual")
 
 #### 7.1 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+PESSOA: Tabela que armazena as informações relativas a pessoa<br>
+id_Pessoa: <br>
+nome: <br>
+sexo: <br>	
+id_Curso: <br>
+etnia: <br>
+id_Renda: <br>	
+telefone: <br>	
+email: <br>
+nascimento: <br>
+
+ALUNO: <br>
+id_Aluno: <br>	
+id_Matricula: <br>	
+
+RENDA: <br>
+id_Renda: <br>
+descRend: <br>
+
+CURSO: <br>
+id_Curso: <br>	
+descCurs: <br>
+
+COTA: <br>
+id_Cota: <br>
+descCota: <br>
+
+STATUS_M: <br>
+id_Status: <br>	
+descStat: <br>
+
+INSTITUICAO_EXTRAC: <br>
+id_Extra: <br>
+tipo: <br>
+
+NEABI: <br>
+id_Neabi: <br>
+datOrig: <br>
+administrador: <br>
+id_Campus: <br>
+
+CAMPUS: <br>
+id_Campus: <br>
+Nome:	<br>
+datOrigCampus: <br>
+
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (mockup)
