@@ -101,6 +101,8 @@ datOrigCampus: data origem do campus <br>
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (mockup)
+(https://www.canva.com/design/DAFC0576NTA/U_6xr4kA3Gz6e-ZDcqEwJQ/view?utm_content=DAFC0576NTA&utm_campaign=designshare&utm_medium=link2 utm_source=sharebutton)
+        
         b) Protótipo vs Modelo conceitual
         (não serão aceitos modelos que não estejam em conformidade)
 
