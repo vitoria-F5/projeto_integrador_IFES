@@ -27,11 +27,12 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
 ### 4.Personas e Histórias de usuário<br>
 
 <br>
+https://www.canva.com/design/DAFDdn2HWFU/IK0c6jlm7QTvSwI2MWiGsQ/view?utm_content=DAFDdn2HWFU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 https://www.figma.com/proto/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=74%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=74%3A58
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Arquivo do protótipo do site YBY](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/home.png "YBY")
-https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/view?utm_content=DAE-DwsIPzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.figma.com/proto/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=74%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=74%3A58
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
@@ -106,6 +107,8 @@ datOrigCampus: data origem do campus <br>
         
         b) Protótipo vs Modelo conceitual
         (não serão aceitos modelos que não estejam em conformidade)
+        
+        
 
 
 ### 9	MODELO LÓGICO<br>
