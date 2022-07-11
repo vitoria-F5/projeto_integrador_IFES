@@ -51,7 +51,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/planilha.png "Tabela de dados")
  
  ### 7.MODELO CONCEITUAL<br>
-![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/conceitual.jpg "Modelo Conceitual")
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Conceitual.jpg "Modelo Conceitual")
 
 #### 7.1 Descrição dos dados 
 PESSOA: Tabela que armazena as informações relativas a pessoa<br>
@@ -112,7 +112,7 @@ datOrigCampus: data origem do campus <br>
 
 
 ### 9	MODELO LÓGICO<br>
-![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/logico.jpeg "Modelo Logico")
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Logico.jpg "Modelo Logico")
 
 ### 10	MODELO FÍSICO<br>
 CREATE TABLE PESSOA (
