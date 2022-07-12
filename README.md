@@ -48,7 +48,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 
 ### 6 TABELA DE DADOS DO SISTEMA:
 
-![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/planilha.png "Tabela de dados")
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/planilha.jpg "Tabela de dados")
  
  ### 7.MODELO CONCEITUAL<br>
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Conceitual.jpg "Modelo Conceitual")
@@ -115,73 +115,70 @@ datOrigCampus: data origem do campus <br>
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Logico.jpg "Modelo Logico")
 
 ### 10	MODELO FÍSICO<br>
+
 CREATE TABLE PESSOA (
-    id INTEGER PRIMARY KEY,
+    id_Pessoa INTEGER PRIMARY KEY,
     nome VARCHAR(100),
     sexo VARCHAR(100),
-    id_Renda INTEGER,
-    telefone BIGINT,
+    telefone VARCHAR(100),
     email VARCHAR(100),
-    nascimento VARCHAR(100),
-    etnia INTEGER,
+    nascimento DATE,
     FK_NEABI_id_Neabi INTEGER,
     FK_CURSO_id_Curso INTEGER,
-    FK_RENDA_id_Renda INTEGER
+    FK_RENDA_id_Renda INTEGER,
+    FK_ETNIA_id_etnia INTEGER
 );
 
 CREATE TABLE ALUNO (
     id_Aluno INTEGER,
-    id_Cota VARCHAR(100),
-    id_Matricula VARCHAR(100),
-    FK_PESSOA_id INTEGER,
+    FK_PESSOA_id_Pessoa INTEGER,
     FK_COTA_id_Cota INTEGER,
-    FK_STATUS_M_id_Extra INTEGER,
-    PRIMARY KEY (id_Aluno, FK_PESSOA_id)
+    FK_STATUS_M_id_Status INTEGER,
+    FK_INSTITUICAO_EXTRAC_id_Extra INTEGER,
+    PRIMARY KEY (id_Aluno, FK_PESSOA_id_Pessoa)
 );
 
 CREATE TABLE NEABI (
     id_Neabi INTEGER PRIMARY KEY,
-    campus VARCHAR(100),
-    dataOrig DATE,
+    datOrig VARCHAR(100),
     administrador VARCHAR(100),
     FK_CAMPUS_id_Campus INTEGER
 );
 
 CREATE TABLE CURSO (
     id_Curso INTEGER PRIMARY KEY,
-    descricao VARCHAR(100)
+    descCurs VARCHAR(100)
 );
 
 CREATE TABLE RENDA (
     id_Renda INTEGER PRIMARY KEY,
-    descricao VARCHAR(100)
+    descRend VARCHAR(100)
 );
 
 CREATE TABLE CAMPUS (
     id_Campus INTEGER PRIMARY KEY,
     nome VARCHAR(100),
-    datOrigCampus DATE
+    datOrigCampus VARCHAR(100)
 );
 
 CREATE TABLE COTA (
     id_Cota INTEGER PRIMARY KEY,
-    descricao VARCHAR(100)
+    descCota VARCHAR(100)
 );
 
 CREATE TABLE STATUS_M (
+    id_Status INTEGER PRIMARY KEY,
+    descStat VARCHAR(100)
+);
+
+CREATE TABLE INSTITUICAO_EXTRAC (
     id_Extra INTEGER PRIMARY KEY,
     tipo VARCHAR(100)
 );
 
-CREATE TABLE INSTITUICAO_EXTRAC (
-    id_Status INTEGER PRIMARY KEY,
-    descStatus VARCHAR(100)
-);
-
-CREATE TABLE Participa (
-    fk_ALUNO_id_Aluno INTEGER,
-    fk_ALUNO_FK_PESSOA_id INTEGER,
-    fk_INSTITUICAO_EXTRAC_id_Status INTEGER
+CREATE TABLE ETNIA (
+    descEtnia VARCHAR(100),
+    id_etnia INTEGER PRIMARY KEY
 );
  
 ALTER TABLE PESSOA ADD CONSTRAINT FK_PESSOA_2
@@ -199,9 +196,14 @@ ALTER TABLE PESSOA ADD CONSTRAINT FK_PESSOA_4
     REFERENCES RENDA (id_Renda)
     ON DELETE SET NULL;
  
+ALTER TABLE PESSOA ADD CONSTRAINT FK_PESSOA_5
+    FOREIGN KEY (FK_ETNIA_id_etnia)
+    REFERENCES ETNIA (id_etnia)
+    ON DELETE CASCADE;
+ 
 ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_2
-    FOREIGN KEY (FK_PESSOA_id)
-    REFERENCES PESSOA (id)
+    FOREIGN KEY (FK_PESSOA_id_Pessoa)
+    REFERENCES PESSOA (id_Pessoa)
     ON DELETE CASCADE;
  
 ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_3
@@ -210,33 +212,76 @@ ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_3
     ON DELETE SET NULL;
  
 ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_4
-    FOREIGN KEY (FK_STATUS_M_id_Extra)
-    REFERENCES STATUS_M (id_Extra)
+    FOREIGN KEY (FK_STATUS_M_id_Status)
+    REFERENCES STATUS_M (id_Status)
     ON DELETE RESTRICT;
+ 
+ALTER TABLE ALUNO ADD CONSTRAINT FK_ALUNO_5
+    FOREIGN KEY (FK_INSTITUICAO_EXTRAC_id_Extra)
+    REFERENCES INSTITUICAO_EXTRAC (id_Extra)
+    ON DELETE CASCADE;
  
 ALTER TABLE NEABI ADD CONSTRAINT FK_NEABI_2
     FOREIGN KEY (FK_CAMPUS_id_Campus)
     REFERENCES CAMPUS (id_Campus)
     ON DELETE CASCADE;
- 
-ALTER TABLE Participa ADD CONSTRAINT FK_Participa_1
-    FOREIGN KEY (fk_ALUNO_id_Aluno, fk_ALUNO_FK_PESSOA_id)
-    REFERENCES ALUNO (id_Aluno, FK_PESSOA_id)
-    ON DELETE RESTRICT;
- 
-ALTER TABLE Participa ADD CONSTRAINT FK_Participa_2
-    FOREIGN KEY (fk_INSTITUICAO_EXTRAC_id_Status)
-    REFERENCES INSTITUICAO_EXTRAC (id_Status)
-    ON DELETE SET NULL;
        
 ### 11	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados 
- <br> + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
 
+INSERT INTO CAMPUS(id_Campus, nome, datOrigCampus) VALUES(1, 'Serra','2001');
+INSERT INTO CAMPUS(id_Campus, nome, datOrigCampus) VALUES(2, 'Vitoria','1909');
+INSERT INTO CAMPUS(id_Campus, nome, datOrigCampus) VALUES(3, 'Linhares','2008');
+INSERT INTO CAMPUS(id_Campus, nome, datOrigCampus) VALUES(4, 'Vila Velha','2010');
+
+
+INSERT INTO NEABI(id_Neabi, datOrig, administrador, FK_CAMPUS_id_Campus) VALUES(1, '2007','ana', 1);
+INSERT INTO NEABI(id_Neabi, datOrig, administrador, FK_CAMPUS_id_Campus) VALUES(2, '2004','diego', 2);
+INSERT INTO NEABI(id_Neabi, datOrig, administrador, FK_CAMPUS_id_Campus) VALUES(3, '2010','edilson', 3);
+INSERT INTO NEABI(id_Neabi, datOrig, administrador, FK_CAMPUS_id_Campus) VALUES(4, '2012','moises', 4);
+
+
+INSERT INTO RENDA(id_Renda, descRend) VALUES(1, 'Até um salario');
+INSERT INTO RENDA(id_Renda, descRend) VALUES(2, 'De um a dois salários');
+INSERT INTO RENDA(id_Renda, descRend) VALUES(3, 'De dois a tres salários');
+
+INSERT INTO ETNIA(id_Etnia, descEtnia) VALUES(1, 'Preto');
+INSERT INTO ETNIA(id_Etnia, descEtnia) VALUES(2, 'Pardo');
+INSERT INTO ETNIA(id_Etnia, descEtnia) VALUES(3, 'Branco');
+INSERT INTO ETNIA(id_Etnia, descEtnia) VALUES(4, 'Indigena');
+INSERT INTO ETNIA(id_Etnia, descEtnia) VALUES(5, 'Amarela');
+
+INSERT INTO CURSO(id_Curso, descCurs) VALUES(1, 'Informatica');
+INSERT INTO CURSO(id_Curso, descCurs) VALUES(2, 'Mecatronica');
+INSERT INTO CURSO(id_Curso, descCurs) VALUES(3, 'Automacao');
+INSERT INTO CURSO(id_Curso, descCurs) VALUES(4, 'IOT');
+
+INSERT INTO COTA(id_Cota, descCota) VALUES(1, 'Racial');
+INSERT INTO COTA(id_Cota, descCota) VALUES(2, 'Economica');
+INSERT INTO COTA(id_Cota, descCota) VALUES(3, 'Necessidade Especial');
+INSERT INTO COTA(id_Cota, descCota) VALUES(4, 'Escolaridade');
+INSERT INTO COTA(id_Cota, descCota) VALUES(5, 'Ampla concorrencia');
+
+INSERT INTO STATUS_M(id_Status, descStat) VALUES(1, 'Trancado');
+INSERT INTO STATUS_M(id_Status, descStat) VALUES(2, 'Cursando');
+INSERT INTO STATUS_M(id_Status, descStat) VALUES(3, 'Desistente');
+
+INSERT INTO INSTITUICAO_EXTRAC(id_Extra, tipo) VALUES(1, 'Linguas');
+INSERT INTO INSTITUICAO_EXTRAC(id_Extra, tipo) VALUES(2, 'pre-vest');
+INSERT INTO INSTITUICAO_EXTRAC(id_Extra, tipo) VALUES(3, 'instrumentos');
+INSERT INTO INSTITUICAO_EXTRAC(id_Extra, tipo) VALUES(4, 'esportes');
+
+
+INSERT INTO PESSOA(id_Pessoa, nome, sexo, FK_CURSO_id_Curso, FK_ETNIA_id_Etnia, FK_RENDA_id_Renda, FK_NEABI_id_Neabi, telefone, email, nascimento) VALUES(1, 'julia', 'f', 1, 2, 1, 4,  '5584551', 'ju@gmail.com', '1992-08-23');
+INSERT INTO ALUNO(id_Aluno, FK_PESSOA_id_pessoa, FK_STATUS_M_id_Status, FK_COTA_id_Cota, FK_INSTITUICAO_EXTRAC_id_Extra) VALUES(1, 1, 1, 1, 1);
+
+INSERT INTO PESSOA(id_Pessoa, nome, sexo, FK_CURSO_id_Curso, FK_ETNIA_id_Etnia, FK_RENDA_id_Renda, FK_NEABI_id_Neabi, telefone, email, nascimento) VALUES(2, 'matheus', 'm', 2, 1, 2, 3, '51651651', 'mateuzin57@gmail.com', '2006-02-17');
+INSERT INTO ALUNO(id_Aluno, FK_PESSOA_id_pessoa, FK_STATUS_M_id_Status, FK_COTA_id_Cota, FK_INSTITUICAO_EXTRAC_id_Extra) VALUES(2, 2, 2, 2, 2);
+
+INSERT INTO PESSOA(id_Pessoa, nome, sexo, FK_CURSO_id_Curso, FK_ETNIA_id_Etnia, FK_RENDA_id_Renda, FK_NEABI_id_Neabi, telefone, email, nascimento) VALUES(3, 'joao', 'm', 3, 4, 1, 2, '616165', 'joaaaao@gmail.com', '2000-02-19');
+INSERT INTO ALUNO(id_Aluno, FK_PESSOA_id_pessoa, FK_STATUS_M_id_Status, FK_COTA_id_Cota, FK_INSTITUICAO_EXTRAC_id_Extra) VALUES(3, 3, 3, 3, 3);
+
+INSERT INTO PESSOA(id_Pessoa, nome, sexo, FK_CURSO_id_Curso, FK_ETNIA_id_Etnia, FK_RENDA_id_Renda, FK_NEABI_id_Neabi, telefone, email, nascimento) VALUES(4, 'ana', 'f', 4, 3, 3, 1, '8484854', 'ana@gmail.com', '2007-03-23');
+INSERT INTO ALUNO(id_Aluno, FK_PESSOA_id_pessoa, FK_STATUS_M_id_Status, FK_COTA_id_Cota, FK_INSTITUICAO_EXTRAC_id_Extra) VALUES(4, 4, 2, 4, 4);
 
 ### 12	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
