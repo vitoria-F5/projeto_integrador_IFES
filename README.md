@@ -10,7 +10,7 @@ Josias Neves Jardim Borba: jojarbor@gmail.com<br>
 Vitória Isabel Lemos de Mattos: vitoriaisabel77351@gmail.com<br>
 
 ### 2.MINIMUNDO<br>
->Escolhemos fazer um sistema para gerir os dados do Campus IFES Serra, a fim de obter relatórios para o NEABI. Com esses relatórios, poderemos entender melhor o perfil de cada indivíduo dentro do Campus.
+>Escolhemos fazer um sistema para gerir os dados do Campus IFES Serra, a fim de obter relatórios para o NEABI. Com tais relatórios, poderemos entender melhor o perfil de cada indivíduo dentro do Campus.
 Digamos que em uma turma de 30 alunos, 21 sejam brancos. Ter esse dado em mãos de forma concreta, nos ajuda a embasar discussões acerca do racismo institucional dentro do Campus, assim como desmistificar a visão que temos dos indivíduos dentro da instituição, ajudando no seu crescimento tanto acadêmico, como humano. 
 Informações como essas podem e vão fortalecer os debates dentro da instituição.
 
