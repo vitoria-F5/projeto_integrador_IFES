@@ -17,10 +17,10 @@ Digamos que em uma turma de 30 alunos, 21 sejam brancos. Ter esse dado em mãos 
 Informações como essas podem e vão fortalecer os debates dentro da instituição.
 
 Qual o propósito?
-Contribuir para o debate a respeito de diversas questões como étnico-raciais, de gênero e socioêconomicas.
+>Contribuir para o debate a respeito de diversas questões como étnico-raciais, de gênero e socioêconomicas.
 
 Qual problema deve resolver?
-Dentro do IFES, existem inúmeros dados sobre a situação socioeconômica de cada aluno, porém, tais  atualmente são utilizados, estáticos, e, mesmo com uma enorme oportunidade, a maior parte  deles não é aproveitado para que possamos realmente contribuir para a diversidade e inclusão da instituição. Junto disso, existe uma pobreza nas discussões  a respeito de temáticas sensíveis como gênero, raça, sexualidade, e classes sociais dentro do IFES. Muitas vezes o que ocorre é o imaginário que questões como essas estejam separadas dos assuntos acadêmicos, fazendo com que muitas vezes sejam esquecidos e/ou negligenciados.
+>Dentro do IFES, existem inúmeros dados sobre a situação socioeconômica de cada aluno, porém, tais  atualmente são utilizados, estáticos, e, mesmo com uma enorme oportunidade, a maior parte  deles não é aproveitado para que possamos realmente contribuir para a diversidade e inclusão da instituição. Junto disso, existe uma pobreza nas discussões  a respeito de temáticas sensíveis como gênero, raça, sexualidade, e classes sociais dentro do IFES. Muitas vezes o que ocorre é o imaginário que questões como essas estejam separadas dos assuntos acadêmicos, fazendo com que muitas vezes sejam esquecidos e/ou negligenciados.
 
 
 >O professor Carlinhos, solicitou um sistema para o NEABI (Núcleo de Estudos Afro-Brasileiros). A princípio, ele deseja armazenar as seguintes informações a respeito os alunos: matrícula, nome, situação da matricula, nascimento, sexo, curso, telefone, email, cota, renda familiar percapita, nome do responsável cor/raça.
