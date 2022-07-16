@@ -116,13 +116,13 @@ datOrigCampus: data origem do campus <br>
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (mockup)
-(https://www.canva.com/design/DAFC0576NTA/U_6xr4kA3Gz6e-ZDcqEwJQ/view?utm_content=DAFC0576NTA&utm_campaign=designshare&utm_medium=link2 utm_source=sharebutton)
         
+![Mockup](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Conceitual.jpg)
+<a href="https://www.figma.com/proto/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=74%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=74%3A58">Rastreabilidade Completa</a>
+
         b) Protótipo vs Modelo conceitual
         (não serão aceitos modelos que não estejam em conformidade)
         
-        
-
 
 ### 9	MODELO LÓGICO<br>
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Logico.jpg "Modelo Logico")
