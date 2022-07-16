@@ -3,7 +3,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
 
-### 1. COMPONENTES<br>
+### 1.COMPONENTES<br>
 Integrantes do grupo<br>
 Larissa Kemile Pereira da Silva: larissakemile24@gmail.com<br>
 Josias Neves Jardim Borba: jojarbor@gmail.com<br>
