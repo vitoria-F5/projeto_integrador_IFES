@@ -36,6 +36,8 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
 ### 3.PMC<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc(1).png "PMC")
 
+![Exemplo](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Cal%C3%AAnd%C3%A1rio%20Acad%C3%AAmico.pdf)
+
 ### 4.Personas e Histórias de usuário<br>
 <a href="https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/edit">As Personas | Com as histórias de usuários</a>
 <br>
