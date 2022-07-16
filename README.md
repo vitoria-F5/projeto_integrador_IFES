@@ -117,7 +117,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (mockup)
         
-![Mockup](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Conceitual.jpg)
+![Mockup](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Rastreabilidade%20x%20Modelo%20Conceitual.pdf)
 
 <a href="https://www.figma.com/proto/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=74%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=74%3A58">Rastreabilidade Completa</a>
 
