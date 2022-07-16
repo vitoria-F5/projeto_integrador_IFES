@@ -309,7 +309,6 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
   b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
   
  #### 12.3 ANTEPROJETO VERSÃO 1
- <br>
  <a href="https://docs.google.com/document/d/1_9PeBBs8see21dz_RfKniQmSsvZXPxrzDNPQvWyhmKw/edit?usp=sharing">Anteprojeto Versão 1</a>
 
  ### 13 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
@@ -320,7 +319,6 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
  #### 13.3 ANTEPROJETO VERSÃO 2
  <br>
  <br>
- 
  
  ### 14 Slides e Apresentação em vídeo. <br>
      OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
