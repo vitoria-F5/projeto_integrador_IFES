@@ -128,7 +128,7 @@ datOrigCampus: data origem do campus <br>
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Logico.jpg "Modelo Logico")
 
 ### 10	MODELO FÍSICO<br>
-
+>
 CREATE TABLE PESSOA (
     id_Pessoa INTEGER PRIMARY KEY,
     nome VARCHAR(100),
