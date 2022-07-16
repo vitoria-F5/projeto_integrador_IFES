@@ -38,6 +38,7 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
 
 ### 4.Personas e Histórias de usuário<br>
 <a href="https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/edit">As Personas | Com as histórias de usuários</a>
+<br>
 <a href="https://docs.google.com/document/d/1yJPbe0jM1IBF9uMW7-klqJyO-vIz21YpnNHRg4wq6qA/edit">As Histórias de Usuários separadamente</a>
 
 > https://www.figma.com/proto/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=74%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=74%3A58
