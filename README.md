@@ -122,9 +122,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
         b) Protótipo vs Modelo conceitual
         (não serão aceitos modelos que não estejam em conformidade)
 
-![Rastreabilidade 'b' Completa] (https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Rastreabilidade%20x%20Modelo%20Conceitual.pdf)
-
-<a href="https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Rastreabilidade%20x%20Modelo%20Conceitual.pdf">Rastreabilidade 'a' Completa</a>
+<a href="https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Rastreabilidade%20x%20Modelo%20Conceitual.pdf">Rastreabilidade 'b' Completa</a>
 
 
 ### 9	MODELO LÓGICO<br>
