@@ -34,7 +34,7 @@ Os dados gerais a respeito da instituição consistem em: nome,
 data_origem e etnias. Para as organizações extracurriculares basta apenas o tipo (cursinhos pré enem, idiomas etc..).
  
 ### 3.PMC<br>
-![PMC](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc(1).png "PMC")
+![PMC](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc.png "PMC")
 
 ### 4.Personas e Histórias de usuário<br>
 <a href="https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/edit">As Personas | Com as histórias de usuários</a>
