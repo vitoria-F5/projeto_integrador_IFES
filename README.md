@@ -39,7 +39,6 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
 ### 4.Personas e Histórias de usuário<br>
 <a href="https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/view?utm_content=DAE-DwsIPzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">As Personas | Com as histórias de usuários</a>
 <br>
-<a href="https://docs.google.com/document/d/117DCzVg-zTyFQKw4f9Fx-aMk8Ukau0M1YPmCbiD3BqM/edit?usp=sharing">As Histórias de Usuários separadamente</a>
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Arquivo do protótipo do site YBY](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/home.png "YBY")
