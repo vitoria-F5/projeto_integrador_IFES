@@ -37,7 +37,7 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
 ![PMC](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/pmc.png "PMC")
 
 ### 4.Personas e Histórias de usuário<br>
-<a href="https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/edit">As Personas | Com as histórias de usuários</a>
+<a href="https://www.canva.com/design/DAE-DwsIPzM/UJqBI8FzzH_yFBft3-4QyQ/view?utm_content=DAE-DwsIPzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">As Personas | Com as histórias de usuários</a>
 <br>
 <a href="https://docs.google.com/document/d/117DCzVg-zTyFQKw4f9Fx-aMk8Ukau0M1YPmCbiD3BqM/edit?usp=sharing">As Histórias de Usuários separadamente</a>
 
@@ -117,7 +117,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (mockup)
         
-<a href="https://www.figma.com/proto/mwnCuYGBWkkDdcDCAj1x8h/Prot%C3%B3tipo?node-id=74%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=74%3A58">Rastreabilidade 'a' Completa</a>
+<a href="https://www.canva.com/design/DAFHwI6bT8U/ltI8R3x3eGGfEmXikYKCjA/view?utm_content=DAFHwI6bT8U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Rastreabilidade 'a' Completa</a>
 
         b) Protótipo vs Modelo conceitual
         (não serão aceitos modelos que não estejam em conformidade)
