@@ -1,5 +1,5 @@
 # TRABALHO DE PI:  YBY
-Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
+Trabalho desenvolvido durante a disciplina de Banco de Dados do Projeto Integrador
 
 # Sumário
 
