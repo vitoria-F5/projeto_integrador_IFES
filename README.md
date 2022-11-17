@@ -52,11 +52,11 @@ data_origem e etnias. Para as organizações extracurriculares basta apenas o ti
     
 Relatórios e informações a respeito do corpo docente e discente do IFES Campus Serra.
 
-* Relatório que informe o perfil dos alunos de cada turma incluindo as seguintes informações: identificação padrão, matrícula, cota a qual pertence, etnia, curso e sexo.
-* Relatório que informe o perfil dos professores de cada área incluindo identificação padrão, matrícula, etnia e sexo.
-* Relatório que informe a quantidade de pessoas no NEABI.
-* Relatório que informe a etnia dos alunos que pertencem a um pré-vestibular.
-* Relatório que informe o perfil de renda de cada etnia dos alunos.
+* Relatório que informe a distribuição de gênero no Campus.
+* Relatório que informe o quantas pessoas de cada etnia fazem curso extracurricular.
+* Relatório que informe o perfil étnico de cada Campi.
+* Relatório que informe o perfil de renda dos alunos.
+* Relatório que informe o perﬁl de cota dos alunos do IFES.
 
 ### 6 TABELA DE DADOS DO SISTEMA:
 
