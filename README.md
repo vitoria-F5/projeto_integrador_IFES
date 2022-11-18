@@ -1,4 +1,4 @@
-# TRABALHO DE PI:  SIGAI - YBY
+# TRABALHO DE PI:  SIGAI
 Trabalho desenvolvido durante a disciplina de Banco de Dados do Projeto Integrador
 
 # Sumário
