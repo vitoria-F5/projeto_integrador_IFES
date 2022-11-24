@@ -303,21 +303,21 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 
 Dados de todas as pessoas
 
-resultado_tabela= pd.read_sql_query("""
-select 
-    pessoa.nome,
-    pessoa.sexo,
-    pessoa.telefone,
-    pessoa.email,
-    pessoa.nascimento,
-    campus.nome as local_neabi 
-    from pessoa
-inner join neabi
-on pessoa.fk_neabi_id_neabi = neabi.id_neabi
-inner join campus
-on campus.id_campus = neabi.fk_campus_id_campus 
-""", conn)
-resultado_tabela
+     resultado_tabela= pd.read_sql_query("""
+     select 
+         pessoa.nome,
+         pessoa.sexo,
+         pessoa.telefone,
+         pessoa.email,
+         pessoa.nascimento,
+         campus.nome as local_neabi 
+         from pessoa
+     inner join neabi
+     on pessoa.fk_neabi_id_neabi = neabi.id_neabi
+     inner join campus
+     on campus.id_campus = neabi.fk_campus_id_campus 
+     """, conn)
+     resultado_tabela
 
 #### 12.2 PRINCIPAIS CONSULTAS DO SISTEMA 
  Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
