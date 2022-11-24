@@ -301,11 +301,90 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 12.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
+Dados de todas as pessoas
+
+resultado_tabela= pd.read_sql_query("""
+select 
+    pessoa.nome,
+    pessoa.sexo,
+    pessoa.telefone,
+    pessoa.email,
+    pessoa.nascimento,
+    campus.nome as local_neabi 
+    from pessoa
+inner join neabi
+on pessoa.fk_neabi_id_neabi = neabi.id_neabi
+inner join campus
+on campus.id_campus = neabi.fk_campus_id_campus 
+""", conn)
+resultado_tabela
+
 #### 12.2 PRINCIPAIS CONSULTAS DO SISTEMA 
  Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
  <br>
   a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
  <br>
+ 
+ Relatório que mostra gênero por campus.
+
+ resSexo= pd.read_sql_query("""
+select sexo as sexo, count(id_pessoa) as pessoas
+from pessoa
+inner join neabi as n
+on fk_neabi_id_neabi = id_neabi
+where(fk_campus_id_campus = 3)
+group by sexo;
+""", conn)
+resSexo
+
+Relatório que mostra quantas pessoas de cada etnia fazem curso extracurricular.
+
+resNumCota= pd.read_sql_query("""
+select descEtnia as Etnias, count(id_Etnia) as Curso_Extracurricular 
+from etnia as e 
+inner join Pessoa as p 
+on e.id_etnia = fk_ETNIA_id_etnia
+inner join Aluno as a
+on p.id_pessoa = fk_pessoa_id_pessoa
+inner join instituicao_extrac as ie
+on ie.id_extra = fk_instituicao_extrac_id_extra
+group by descEtnia
+""", conn)
+
+Relatório que mostra a etnia por campus.
+
+resNumCota= pd.read_sql_query("""
+select descEtnia as Etnias, count(id_Etnia) as pessoas
+from etnia as e 
+inner join Pessoa as p 
+on e.id_etnia = fk_ETNIA_id_etnia
+inner join neabi as n
+on id_neabi = fk_neabi_id_neabi
+where(fk_campus_id_campus = 3)
+group by descEtnia;
+""", conn)
+resNumCota
+
+Quantas pessoas tem cada valor de renda.
+
+resrenda= pd.read_sql_query("""
+select descRend as Renda, count(id_renda) as Pessoa_Renda
+from renda as r
+inner join pessoa as p
+on id_renda = fk_renda_id_renda
+group by descRend
+""", conn)
+
+Perfil de cota dos alunos do IFES
+
+resalcot= pd.read_sql_query("""
+select descCota, count(id_cota) as alunos_cota
+from cota as c
+inner join aluno as a
+on id_cota = fk_cota_id_cota
+group by descCota;
+""", conn)
+
   b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
   
  #### 12.3 ANTEPROJETO VERSÃO 1
