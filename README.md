@@ -416,4 +416,5 @@ Perfil de cota dos alunos do IFES
 Etnia, Pessoa, Curso, Status de Matrícula, Instituição Extracurricular, Cota, Renda,
 Neabi, Campus.
 ### 18 Diagrama de classes <br>
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/diagrama.png "Diagrama de Classes")
 
