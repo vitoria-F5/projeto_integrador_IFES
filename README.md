@@ -410,5 +410,7 @@ Perfil de cota dos alunos do IFES
 ### 15 Backlog do projeto <br>
 ### 16 Calendário reverso <br>
 ### 17 Classes do projeto <br>
+Etnia, Pessoa, Curso, Status de Matrícula, Instituição Extracurricular, Cota, Renda,
+Neabi, Campus.
 ### 18 Diagrama de classes <br>
 
