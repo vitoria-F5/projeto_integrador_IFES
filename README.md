@@ -402,7 +402,7 @@ Perfil de cota dos alunos do IFES
  ### 14 Slides e Apresentação em vídeo. <br>
      OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
  #### 14.1 Slides; <br>
- ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Pecha%20Kucha.pdf.pdf Pecha Kucha - Slides")
+ ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Pecha%20Kucha.pdf.pdf "Pecha Kucha - Slides")
  
  #### 14.2 Apresentação em vídeo <br>
  #### 14.3 ANTEPROJETO VERSÃO FINAL
