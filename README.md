@@ -338,7 +338,7 @@ Dados de todas as pessoas
     """, conn)
     resSexo
     
-    ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/generoPorCampus.png "Gênero por Campus")
+ ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/generoPorCampus.png "Gênero por Campus")
     
  "Diagrama de Classes")
     
