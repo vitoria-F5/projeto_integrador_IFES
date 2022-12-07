@@ -337,7 +337,11 @@ Dados de todas as pessoas
     group by sexo;
     """, conn)
     resSexo
-
+    
+    ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/generoPorCampus.png "Gênero por Campus")
+    
+ "Diagrama de Classes")
+    
 Relatório que mostra quantas pessoas de cada etnia fazem curso extracurricular.
 
     resNumCota= pd.read_sql_query("""
