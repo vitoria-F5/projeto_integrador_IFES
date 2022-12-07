@@ -119,6 +119,7 @@ Relatórios e informações a respeito do corpo docente e discente do IFES Campu
 <a href="https://www.canva.com/design/DAFHwI6bT8U/ltI8R3x3eGGfEmXikYKCjA/view?utm_content=DAFHwI6bT8U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Rastreabilidade 'a' Completa</a>
 
         b) Protótipo vs Modelo conceitual
+        
         (não serão aceitos modelos que não estejam em conformidade)
 
 <a href="https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/Rastreabilidade%20x%20Modelo%20Conceitual.pdf">Rastreabilidade 'b' Completa</a>
