@@ -338,7 +338,7 @@ Dados de todas as pessoas
     """, conn)
     resSexo
     
- ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/generoPorCampus.png "Gênero por Campus")
+ ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/generoPorCampus.png)
     
  "Diagrama de Classes")
     
@@ -356,6 +356,8 @@ Relatório que mostra quantas pessoas de cada etnia fazem curso extracurricular.
     group by descEtnia
     """, conn)
 
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/etniaPorCursoExtra.png)
+
 Relatório que mostra a etnia por campus.
 
     resNumCota= pd.read_sql_query("""
@@ -370,6 +372,8 @@ Relatório que mostra a etnia por campus.
     """, conn)
     resNumCota
 
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/etniaPorCampus.png)
+
 Quantas pessoas tem cada valor de renda.
 
     resrenda= pd.read_sql_query("""
@@ -379,6 +383,8 @@ Quantas pessoas tem cada valor de renda.
     on id_renda = fk_renda_id_renda
     group by descRend
     """, conn)
+
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/rendaPorPessoa.png)
 
 Perfil de cota dos alunos do IFES
 
