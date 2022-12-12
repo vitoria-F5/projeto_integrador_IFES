@@ -281,12 +281,7 @@ Dados de todas as pessoas
     """, conn)
     resultado_tabela
 
-#### 12.2 PRINCIPAIS CONSULTAS DO SISTEMA 
- Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
- <br>
-  a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
- <br>
- 
+#### 12.2 PRINCIPAIS CONSULTAS DO SISTEMA  
  Relatório que mostra gênero por campus.
 
     resSexo= pd.read_sql_query("""
@@ -356,20 +351,16 @@ Perfil de cota dos alunos do IFES
     """, conn)
     
 ![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/cotaPorAluno.png)    
-
-  b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
   
- #### 12.3 ANTEPROJETO VERSÃO 1
+ #### 12.3 ANTEPROJETO VERSÃO 1 (todas as versões do anteprojeto foram atualizadas)
  <a href="https://docs.google.com/document/d/1_9PeBBs8see21dz_RfKniQmSsvZXPxrzDNPQvWyhmKw/edit?usp=sharing">Anteprojeto Versão 1</a>
 
  ### 13 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
      OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
+     
  #### 13.1	Integração com Linguagem de programação; <br>
  #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
  #### solicitações feitas pelo professor. <br>
- #### 13.3 ANTEPROJETO VERSÃO 2
- <br>
- <br>
  
  ### 14 Slides e Apresentação em vídeo. <br>
  #### 14.1 Slides; <br>
