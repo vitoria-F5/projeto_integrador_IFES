@@ -359,8 +359,7 @@ Perfil de cota dos alunos do IFES
      OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
      
  #### 13.1	Integração com Linguagem de programação; <br>
- #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
- #### solicitações feitas pelo professor. <br>
+ #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor. <br>
  
  ### 14 Slides e Apresentação em vídeo. <br>
  #### 14.1 Slides; <br>
