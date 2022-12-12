@@ -354,6 +354,8 @@ Perfil de cota dos alunos do IFES
     on id_cota = fk_cota_id_cota
     group by descCota;
     """, conn)
+    
+![Alt text](https://github.com/vitoria-F5/projeto_integrador_IFES/blob/main/arquivos/cotaPorAluno.png)    
 
   b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
   
